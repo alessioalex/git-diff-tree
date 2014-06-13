@@ -1,0 +1,37 @@
+{
+  "name": "git-diff-tree",
+  "version": "0.1.0",
+  "description": "Shelling out to git-diff-tree(1) in a Node streamy fashion",
+  "main": "index.js",
+  "dependencies": {
+    "bubble-stream-error": "~0.0.1",
+    "git-spawned-stream": "~0.1.0",
+    "split-transform-stream": "~0.1.1",
+    "through2": "~0.5.1"
+  },
+  "devDependencies": {
+    "proxyquire": "~1.0.1",
+    "should": "~4.0.4",
+    "mocha": "~1.20.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alessioalex/git-diff-tree"
+  },
+  "keywords": [
+    "git",
+    "diff",
+    "tree",
+    "diff-tree",
+    "git-diff"
+  ],
+  "author": "Alexandru Vladutu <alexandru.vladutu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alessioalex/git-diff-tree/issues"
+  },
+  "homepage": "https://github.com/alessioalex/git-diff-tree"
+}

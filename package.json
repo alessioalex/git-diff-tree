@@ -7,14 +7,14 @@
     "bubble-stream-error": "~0.0.1",
     "git-spawned-stream": "~0.1.0",
     "split-transform-stream": "~0.1.1",
-    "through2": "~0.5.1"
+    "through2": "~2.0.0"
   },
   "devDependencies": {
     "alessioalex-standard": "^1.1.0",
     "husky": "^0.10.2",
-    "mocha": "~1.20.1",
-    "proxyquire": "~1.0.1",
-    "should": "~4.0.4"
+    "mocha": "~2.3.4",
+    "proxyquire": "~1.7.3",
+    "should": "~7.1.1"
   },
   "scripts": {
     "test": "mocha",

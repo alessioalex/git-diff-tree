@@ -1,4 +1,5 @@
-"use strict";
+/* eslint-disable no-console, func-names */
+'use strict';
 
 var gitDiffTree = require('../');
 var path = require('path');
@@ -7,7 +8,7 @@ var repoPath = path.resolve(process.env.REPO || (__dirname + '/../.git'));
 // if originalRev is provided, the diffTree will compare it with rev
 // else it will compare the rev with the root
 gitDiffTree(repoPath, {
-  rev : process.env.REV || null, // defaults to 'HEAD'
+  rev: process.env.REV || null // defaults to 'HEAD'
   // originalRev : 'HEAD^^^^^' // defaults to --root
   // don't output data for files that have more lines changed than allowed
   // MAX_DIFF_LINES_PER_FILE: 300,
@@ -35,5 +36,5 @@ gitDiffTree(repoPath, {
   console.log('Diff to big, got cut :|');
 }).on('end', function() {
   console.log('-----------------');
-  console.log("That's all folks");
+  console.log('That\'s all folks');
 });

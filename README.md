@@ -2,6 +2,8 @@
 
 Shelling out to [git-diff-tree(1)](https://www.kernel.org/pub/software/scm/git/docs/git-diff-tree.html) in a Node streamy fashion.
 
+[![build status](https://secure.travis-ci.org/alessioalex/git-diff-tree.png)](http://travis-ci.org/alessioalex/git-diff-tree)
+
 ## Usage
 
 ```js

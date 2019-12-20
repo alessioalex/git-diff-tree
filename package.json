@@ -4,7 +4,7 @@
   "description": "Shelling out to git-diff-tree(1) in a Node streamy fashion",
   "main": "index.js",
   "dependencies": {
-    "git-spawned-stream": "~0.1.0",
+    "git-spawned-stream": "^1.0.1",
     "pump-chain": "^1.0.0",
     "split-transform-stream": "~0.1.1",
     "through2": "~2.0.0"
